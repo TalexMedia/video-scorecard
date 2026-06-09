@@ -434,7 +434,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
     </div>
     <h1 class="disp hero-title">Is Your Video<br/>Worth Watching?</h1>
     <div class="italic hero-tagline">A free scorecard for brands that want to be watched, not skipped.</div>
-    <p class="hero-desc">Most brand video does not fail because the camera work is bad. It fails because it was built around the brand instead of the people it is meant to reach. Answer 15 honest questions and we will show you where your video is working, where it is losing people, and what to do about it.</p>
+    <p class="hero-desc">The problem with most brand video is that it's made for the wrong audience. It fails because it was built around the brand instead of the people it is meant to reach. Answer these 10 questions honestly and we will show you where your video is working, where it is losing people, and what to do about it.</p>
   </header>
 
   <!-- Stat strip -->
@@ -444,7 +444,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
       <div class="stat-label">Dimensions</div>
     </div>
     <div class="stat-cell">
-      <div class="stat-num">15</div>
+      <div class="stat-num">10</div>
       <div class="stat-label">Questions</div>
     </div>
     <div class="stat-cell">
@@ -538,9 +538,9 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
     <div class="q-counter" id="q-counter">
       <span class="q-counter-label">Progress</span>
       <div class="q-counter-dots" id="q-dots">
-        <!-- 15 dots rendered by JS -->
+        <!-- 10 dots rendered by JS -->
       </div>
-      <span id="q-count-txt" class="lbl" style="color:var(--txt3);font-size:10px;margin-left:auto">0 / 15</span>
+      <span id="q-count-txt" class="lbl" style="color:var(--txt3);font-size:10px;margin-left:auto">0 / 10</span>
     </div>
 
     <!-- Section 1 -->
@@ -572,18 +572,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
           <option value="3">Usually - it's part of how we work most of the time</option>
           <option value="4">Always - the viewer's reason to watch comes first</option>
         </select>
-      </div>
-      <div class="q-row">
-        <label class="q-label" for="s1q3">If a stranger with no interest in your company saw your video, would they keep watching?</label>
-        <select class="q-sel" id="s1q3" data-section="s1" data-w="1">
-          <option value="">Choose…</option>
-          <option value="1">No - it only makes sense to people who already know us</option>
-          <option value="2">Maybe for a few seconds, then they'd move on</option>
-          <option value="3">Probably - there's something in it for them</option>
-          <option value="4">Yes - it stands on its own as something worth watching</option>
-        </select>
-      </div>
-    </div>
+      </div>    </div>
 
     <!-- Section 2 -->
     <div class="section-block">
@@ -614,18 +603,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
           <option value="3">With a question or a clear promise of what's coming</option>
           <option value="4">With a hook that grabs you in the first few seconds</option>
         </select>
-      </div>
-      <div class="q-row">
-        <label class="q-label" for="s2q3">Do people watch your videos all the way to the end?</label>
-        <select class="q-sel" id="s2q3" data-section="s2" data-w="1">
-          <option value="">Choose…</option>
-          <option value="1">No - most drop off in the first several seconds</option>
-          <option value="2">Some do, but most leave partway through</option>
-          <option value="3">Most stay for the bulk of it</option>
-          <option value="4">Strong watch-through - they finish and come back</option>
-        </select>
-      </div>
-    </div>
+      </div>    </div>
 
     <!-- Section 3 -->
     <div class="section-block">
@@ -638,7 +616,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
       </div>
       <p style="font-size:13px;color:var(--txt3);margin-bottom:0.25rem;font-style:italic">Facts get forgotten. Stories get retold. The brands people remember are the ones that gave them a story worth passing on.</p>
       <div class="q-row">
-        <label class="q-label" for="s3q1">Do your videos tell a story, or deliver information?</label>
+        <label class="q-label" for="s3q1">Do your videos tell a story or just deliver information?</label>
         <select class="q-sel" id="s3q1" data-section="s3" data-w="1">
           <option value="">Choose…</option>
           <option value="1">Information - we explain what we do and how it works</option>
@@ -648,26 +626,15 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
         </select>
       </div>
       <div class="q-row">
-        <label class="q-label" for="s3q2">Is there a person or character the audience follows?</label>
+        <label class="q-label" for="s3q2">Are there returning characters that your audience knows?</label>
         <select class="q-sel" id="s3q2" data-section="s3" data-w="1">
           <option value="">Choose…</option>
-          <option value="1">No - it's the brand talking</option>
-          <option value="2">Sometimes a person appears, but not as the focus</option>
-          <option value="3">Often - real people are part of most videos</option>
-          <option value="4">Yes - real people the audience cares about</option>
+          <option value="1">No - it's the brand talking, no recurring faces</option>
+          <option value="2">The same person sometimes appears, but not as a character</option>
+          <option value="3">A few familiar faces show up across our videos</option>
+          <option value="4">Yes - recurring characters our audience knows and follows</option>
         </select>
-      </div>
-      <div class="q-row">
-        <label class="q-label" for="s3q3">How often do viewers tell you a video "really got to them"?</label>
-        <select class="q-sel" id="s3q3" data-section="s3" data-w="1">
-          <option value="">Choose…</option>
-          <option value="1">Never - we don't get that kind of reaction</option>
-          <option value="2">Rarely - maybe once or twice, ever</option>
-          <option value="3">Sometimes - a few videos have landed that way</option>
-          <option value="4">Often - an emotional reaction is common</option>
-        </select>
-      </div>
-    </div>
+      </div>    </div>
 
     <!-- Section 4 -->
     <div class="section-block">
@@ -688,25 +655,14 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
           <option value="3">We have one or two ideas we repeat</option>
           <option value="4">A series with a format we run again and again</option>
         </select>
-      </div>
-      <div class="q-row">
-        <label class="q-label" for="s4q2">Does your audience know when the next video is coming?</label>
-        <select class="q-sel" id="s4q2" data-section="s4" data-w="1">
-          <option value="">Choose…</option>
-          <option value="1">No - there's no rhythm to it</option>
-          <option value="2">Not really - we post when we have something</option>
-          <option value="3">Somewhat - there's a loose pattern they might notice</option>
-          <option value="4">Yes - they anticipate the next one</option>
-        </select>
-      </div>
-      <div class="q-row">
-        <label class="q-label" for="s4q3">Could you describe your video as a "show" with a name and a format?</label>
+      </div>      <div class="q-row">
+        <label class="q-label" for="s4q3">Are your videos consistent in theme and structure like a TV show?</label>
         <select class="q-sel" id="s4q3" data-section="s4" data-w="1">
           <option value="">Choose…</option>
-          <option value="1">No - they're just videos</option>
-          <option value="2">We've talked about it but haven't built one</option>
-          <option value="3">Partly - there's a loose format but no real identity</option>
-          <option value="4">Yes - it has its own name, shape, and identity</option>
+          <option value="1">No - each one looks and feels different</option>
+          <option value="2">A little - some loose similarities, no real format</option>
+          <option value="3">Mostly - a recognizable format with some drift</option>
+          <option value="4">Yes - consistent theme and structure, like a TV show</option>
         </select>
       </div>
     </div>
@@ -720,18 +676,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
           <span class="step-title">Presence</span>
         </div>
       </div>
-      <p style="font-size:13px;color:var(--txt3);margin-bottom:0.25rem;font-style:italic">Trust is built by showing up again and again, not by one good video. The audience needs to know you'll be back before they invest their attention.</p>
-      <div class="q-row">
-        <label class="q-label" for="s5q1">How would you describe your current video publishing schedule?</label>
-        <select class="q-sel" id="s5q1" data-section="s5" data-w="1">
-          <option value="">Choose…</option>
-          <option value="1">No schedule - we publish when we get around to it</option>
-          <option value="2">Sporadic - bursts of video, then long silences</option>
-          <option value="3">Mostly consistent - a loose schedule we generally follow</option>
-          <option value="4">Very consistent - a reliable schedule the audience can count on</option>
-        </select>
-      </div>
-      <div class="q-row">
+      <p style="font-size:13px;color:var(--txt3);margin-bottom:0.25rem;font-style:italic">Trust is built by showing up again and again, not by one good video. The audience needs to know you'll be back before they invest their attention.</p>      <div class="q-row">
         <label class="q-label" for="s5q2">Over the last six months, has your video output been steady, or have there been big gaps?</label>
         <select class="q-sel" id="s5q2" data-section="s5" data-w="1">
           <option value="">Choose…</option>
@@ -757,7 +702,7 @@ select.q-sel.invalid,input.q-inp.invalid{border-color:var(--red);background:var(
       <div id="validation-banner" style="display:none;background:#FDF0EE;border:1px solid #E8BEBC;border-left:3px solid #C0392B;border-radius:7px;padding:0.85rem 1rem;margin-bottom:1rem;">
         <div style="display:flex;align-items:center;gap:8px;">
           <span style="color:#C0392B;font-size:16px;flex-shrink:0;">⚠</span>
-          <p style="font-size:13px;color:#8B2520;line-height:1.5;" id="validation-msg">Please complete all required fields and answer all 15 questions before generating your scorecard.</p>
+          <p style="font-size:13px;color:#8B2520;line-height:1.5;" id="validation-msg">Please complete all required fields and answer all 10 questions before generating your scorecard.</p>
         </div>
       </div>
       <button type="button" class="btn-submit" id="submit-btn" onclick="generateAudit()">Generate My Video Scorecard →</button>
@@ -880,7 +825,7 @@ window.addEventListener("load", function () {
   // ── Progress dots
   var dotsWrap = document.getElementById("q-dots");
   if (dotsWrap) {
-    for (var di = 0; di < 15; di++) {
+    for (var di = 0; di < 10; di++) {
       var dot = document.createElement("div");
       dot.className = "q-dot";
       dot.id = "dot-" + di;
@@ -898,7 +843,7 @@ window.addEventListener("load", function () {
       if (answered) count++;
     });
     var ct = document.getElementById("q-count-txt");
-    if (ct) ct.textContent = count + " / 15";
+    if (ct) ct.textContent = count + " / 10";
   }
 
   document.querySelectorAll("select[data-section]").forEach(function (s) {
@@ -981,7 +926,7 @@ window.addEventListener("load", function () {
 
     if (!ok && banner && bannerMsg) {
       if (unanswered > 0) {
-        bannerMsg.textContent = "Please answer all 15 questions - " + unanswered + (unanswered > 1 ? " questions are" : " question is") + " still unanswered (highlighted in red below).";
+        bannerMsg.textContent = "Please answer all 10 questions - " + unanswered + (unanswered > 1 ? " questions are" : " question is") + " still unanswered (highlighted in red below).";
       } else {
         bannerMsg.textContent = "Please complete all required fields (Name, Email, Brand, Industry) before generating your scorecard.";
       }
